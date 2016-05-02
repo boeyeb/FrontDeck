@@ -1,0 +1,17 @@
+{
+	"name": "DAQ",
+	"version": "1.0.0",
+	"description": "Data Acquisition plotter",
+	"main": "server.js",
+	"scripts":
+	{
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Rajeev Kumar<rajeev.kumar@yahoo.com>",
+	"dependencies":
+	{
+		"express": "*",
+        "socket.io": "*",
+        "morgan":"*"
+	}
+}

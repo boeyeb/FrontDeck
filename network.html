@@ -1,0 +1,10 @@
+<dl class="dl-horizontal alignLeft" ng-repeat="(key,value) in system.netifs">
+  <dt>{{key}}</dt>
+  <dd>
+    <div ng-repeat="netif in value">
+      <div ng-if="netif.netmask.indexOf('ffff:ffff:ffff:ffff')==-1">
+        MAC={{netif.mac}}, IP={{netif.address}}/{{netif.netmask}}
+        </div>
+    </div>
+  </dd>
+</dl>
