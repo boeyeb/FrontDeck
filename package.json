@@ -1,7 +1,7 @@
 {
-	"name": "DAQ",
+	"name": "FrontDeck",
 	"version": "1.0.0",
-	"description": "Data Acquisition plotter",
+	"description": "FrontDeck angularjs based dashboard template",
 	"main": "server.js",
 	"scripts":
 	{
@@ -11,7 +11,6 @@
 	"dependencies":
 	{
 		"express": "*",
-        "socket.io": "*",
-        "morgan":"*"
+        	"morgan":"*"
 	}
 }
