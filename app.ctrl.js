@@ -56,9 +56,6 @@
 			.when("/network", {
 				templateUrl: "network.html"
 			})
-			.when("/settings", {
-				templateUrl: "settings.html"
-			})
 			.when("/help", {
 				templateUrl: "help.html"
 			})
